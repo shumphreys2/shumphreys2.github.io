@@ -3,6 +3,9 @@ description: A blog on ideas in tech and music.
 
 theme: minima
 
+base_url:   shumphreys2.github.io 
+repository: shumphreys2/shumphreys2.github.io 
+
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
