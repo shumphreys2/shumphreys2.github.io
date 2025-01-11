@@ -10,11 +10,24 @@ plugins:
 # Minima: show excerpts in the frontpage
 show_excerpts: true
 
-exclude: [vendor]
+minima:
+  date_format: "%Y-%m-%d"
 
-#exclude: 
-#    - .gitignore
-#    - Gemfile
-#    - Gemfile.lock
-#    - LICENSE
-#    - README.md
+# Minima: custom header links
+header_pages:
+  - _pages/frontpage.md
+  #- _pages/about.md
+  #- _pages/archive.md
+
+include:
+    - _pages
+
+#exclude: [vendor]
+
+exclude: 
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - [vendor]
