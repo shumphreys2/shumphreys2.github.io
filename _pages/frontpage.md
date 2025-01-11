@@ -5,6 +5,4 @@ title: Welcome
 list_title: Blog Posts
 ---
 
-This is from a template from jsanz.
-
-Cheers!
+Welcome to my blog on tech and music ideas.  I use this site to document circuit designs and design approaches, some minor coding efforts, and ideas on music and guitar.
