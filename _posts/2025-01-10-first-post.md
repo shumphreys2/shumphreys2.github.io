@@ -52,3 +52,11 @@ I'm using the GitHub Actions presently.
 
 ### Check your deployed page(s) at <user>.github.io
 
+### Other modifications
+Other modifications include:
+- Creating a Personal Access Token (PAT) to allow git pushes from a local repo.
+- Note checkouts are done using the PAT in the URL.
+-- see <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>
+- Added and modified the Gemfile to use ubuntu-22.04 specifically, after build errors.
+- Using the jekyll/minima remote theme instead of the GitHub built-in older version.
+
