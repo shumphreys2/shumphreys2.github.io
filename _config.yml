@@ -22,7 +22,7 @@ header_pages:
 include:
     - _pages
 
-#exclude: [vendor]
+exclude: [vendor]
 
 exclude: 
     - .gitignore
@@ -30,4 +30,3 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
-    - [vendor]
