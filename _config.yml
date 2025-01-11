@@ -10,9 +10,11 @@ plugins:
 # Minima: show excerpts in the frontpage
 show_excerpts: true
 
-exclude: 
-    - .gitignore
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
+exclude: [vendor]
+
+#exclude: 
+#    - .gitignore
+#    - Gemfile
+#    - Gemfile.lock
+#    - LICENSE
+#    - README.md
