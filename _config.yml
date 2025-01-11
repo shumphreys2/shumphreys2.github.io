@@ -28,7 +28,16 @@ header_pages:
 include:
     - _pages
 
-exclude: [vendor]
+exclude:
+  - docs/
+  - vendor/
+  - Gemfile # Gemfile.lock is implied because of how matching works.
+  - LICENSE
+  - Makefile
+  - README.md
+  - sample*.png
+
+#exclude: [vendor]
 
 #exclude: 
 #    - .gitignore
