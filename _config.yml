@@ -33,6 +33,9 @@ show_excerpts: true
 minima:
   date_format: "%Y-%m-%d"
   skin: classic
+  # Generate social links in footer.
+  social_links:
+    - { platform: github, user_url: "https://github.com/shumphreys2/" }
 
 # Minima: custom header links
 header_pages:
