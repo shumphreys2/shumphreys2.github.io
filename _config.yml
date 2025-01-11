@@ -1,11 +1,13 @@
 title: SHumphreys Blog
-description: A blog on ideas in tech and music.
+description: Ideas in tech and music.
+author: "Scott Humphreys"
 
 # GitHub older version:
 # theme: minima
 # use latest version:
 remote_theme: jekyll/minima
 
+# Minima social links
 email:
 twitter_username:
 github_username: shumphreys2
