@@ -4,4 +4,5 @@ title: SHumphreys2 Blog
 description: A blog on ideas in tech and music.
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-sitemap
