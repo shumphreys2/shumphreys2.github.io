@@ -1,3 +1,7 @@
 theme: jekyll-theme-minima
+
 title: SHumphreys2 Blog
 description: A blog on ideas in tech and music.
+
+plugins:
+  - jekyll-sitemap
