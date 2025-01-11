@@ -2,30 +2,30 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
     <div class="footer-col-wrapper">
 
       <div class="footer-col-1">
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
+        {%- if site.author %}
+          <ul class="contact-list">
+            {% if site.author.name -%}
+              <li class="p-name">{{ site.author.name | escape }}</li>
+            {% endif -%}
+            {% if site.author.email -%}
+              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            {%- endif %}
+          </ul>
+        {%- endif %}
+      </div> <!-- footer-col-1 -->
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
       </div>
 
-    <div class="footer-col footer-col-2">
-      {%- include social.html -%}
-    </div>
-
-    <div class="footer-col footer-col-3">
-      <p>{{- site.description | escape -}}</p>
-    </div>
-
-  </div>
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+  
+    </div> <!-- footer-col-wrapper -->
+  </div> <!-- wrapper -->
 
 </footer>
