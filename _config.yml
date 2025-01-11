@@ -24,9 +24,9 @@ include:
 
 exclude: [vendor]
 
-exclude: 
-    - .gitignore
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
+#exclude: 
+#    - .gitignore
+#    - Gemfile
+#    - Gemfile.lock
+#    - LICENSE
+#    - README.md
