@@ -1,4 +1,8 @@
-## Post for 2025-01-10
+---
+title: "First Post"
+date: 2025-01-10
+layout: post
+---
 
 Here we go! A new post for the new Year.
 
