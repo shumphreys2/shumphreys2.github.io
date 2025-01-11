@@ -1,7 +1,9 @@
 title: SHumphreys2 Blog
 description: A blog on ideas in tech and music.
 author: "Scott Humphreys"
+
 theme: minima
+
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
@@ -17,8 +19,8 @@ github_username: shumphreys2
 # Minima: show excerpts in the frontpage
 show_excerpts: true
 
-minima:
-  date_format: "%Y-%m-%d"
+#minima:
+#  date_format: "%Y-%m-%d"
 
 # Minima: custom header links
 #header_pages:
