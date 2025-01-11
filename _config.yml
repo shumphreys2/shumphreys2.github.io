@@ -1,7 +1,10 @@
 title: SHumphreys2 Blog
 description: A blog on ideas in tech and music.
 
-theme: minima
+# GitHub older version
+#theme: minima
+# use latest version
+remote_theme: jekyll/minima
 
 base_url:   shumphreys2.github.io 
 repository: shumphreys2/shumphreys2.github.io 
