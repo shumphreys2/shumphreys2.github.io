@@ -11,19 +11,19 @@ This blog uses GitHub Pages and a Jekyll theme.  I'll outline what I've done her
 - Simple content management by having a collection of post files and assets.
 - It's free for personal use.
 - Easy editing of posts using Markdown files. These can be previewed in the web based editor on GitHub.
-- Markdown reference: https://www.markdownguide.org/cheat-sheet/
+- Markdown reference: <https://www.markdownguide.org/cheat-sheet/>
 
 First, thanks to Jorge Sanz for his helpful example pages:\
-https://github.com/jsanz/gh-pages-minima-starter/tree/master
+<https://github.com/jsanz/gh-pages-minima-starter/tree/master>
 
 ### Set up a GitHub account and create a repo to hold the blog.
 - The repo name should be <user>.github.io.
 - See the quick start for more details:\
-  https://docs.github.com/en/pages/quickstart
+  <https://docs.github.com/en/pages/quickstart>
 
 ### Add a README.md and _config.yml file to start.
 - More files and sub-directories are added later
-- https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#about-content-in-jekyll-sites
+- <https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#about-content-in-jekyll-sites>
 - NOTE: As an alternative it should be possible to clone a working repo for an example blog.
 
 ### Set up the Source and Actions 
