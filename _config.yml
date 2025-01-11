@@ -6,12 +6,21 @@ description: A blog on ideas in tech and music.
 # use latest version:
 remote_theme: jekyll/minima
 
-base_url:   shumphreys2.github.io 
+email:
+twitter_username:
+github_username: shumphreys2
+rss: 
+
+url: https://shumphreys2.github.io
+base_url:   /shumphreys2.github.io 
 repository: shumphreys2/shumphreys2.github.io 
+
+permalink: pretty
 
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-feed
 
 # Minima: show excerpts in the frontpage
 show_excerpts: true
@@ -37,11 +46,3 @@ exclude:
   - README.md
   - sample*.png
 
-#exclude: [vendor]
-
-#exclude: 
-#    - .gitignore
-#    - Gemfile
-#    - Gemfile.lock
-#    - LICENSE
-#    - README.md
