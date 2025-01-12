@@ -20,11 +20,13 @@ Thanks to Jorge Sanz for his helpful example pages:
 - See the quick start for more details:\
   <https://docs.github.com/en/pages/quickstart>
 
-### Add a few required files to start: README.md, _config.yml, Gemfile
-- More files and sub-directories are added later
-- <https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#about-content-in-jekyll-sites>
-- Note: As an alternative it should be possible to clone a working repo for an example blog..
-- Note: I'm not 100% certain a Gemfile is required for a GitHub Action based deployment.
+### Add a few required files to start
+- README.md, _config.yml, Gemfile
+- More files and sub-directories are added later for posts and customization. For details, see:
+  <https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#about-content-in-jekyll-sites>
+- Other notes: 
+  - As an alternative it should be possible to clone a working repo for an example blog..
+  - Note: I'm not 100% certain a Gemfile is required for a GitHub Action based deployment.
 
 ### Set up the Source and Actions 
 I'm using the GitHub Actions presently.
@@ -42,7 +44,7 @@ I'm using the GitHub Actions presently.
   - Example: _layouts/base.html, _includes/footer.html
 - Update _config.yml for the theme, header and footer fields.
   - This blog uses the jekyll/minima repo, rather than the built in version in GitHub:
-  - `remote_theme: jekyll/minima`
+    `remote_theme: jekyll/minima`
 
 ### Add a first post
 - Create post files under _posts, e.g. _posts/\<date\>-\<short-description\>.md
@@ -57,7 +59,7 @@ I'm using the GitHub Actions presently.
 
 ### Install Ruby and Jekyll to preview pages locally
 - Initial instructions are at the github pages site:\
-https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+  <https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll>
 - Further instructions for Ubuntu:\
 `sudo apt-get install ruby-dev ruby-bundler`
 - Run bundle install once in the local repo.  Then start a local server with:\
@@ -65,12 +67,12 @@ https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/test
 
 ### Other modifications and options
 - Created a Personal Access Token (PAT) to allow git pushes from a local repo.
-- Note: Checkouts are done using the PAT in the URL.\
-<https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>
+- Note: Checkouts are done using the PAT in the URL. See:\
+  <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>
 - Added and modified the Gemfile to use ubuntu-22.04 specifically, after build errors.
 - Using the jekyll/minima remote theme instead of the GitHub built-in older version.
-- Use ghostwriter to edit and preview Markdown locally even before a jekyll build.\
-<https://ghostwriter.kde.org/>
+- Use ghostwriter to edit and preview Markdown locally even before a jekyll build. (Includes spell checking!) Available here:\
+  <https://ghostwriter.kde.org/>
 
-### References
+### Additional References
 Markdown: <https://www.markdownguide.org/cheat-sheet/>
