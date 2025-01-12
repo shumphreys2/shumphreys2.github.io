@@ -6,13 +6,13 @@ layout: post
 
 This blog uses GitHub Pages and a Jekyll theme.  I've outlined what I've done to get the blog up and running here for future reference.  
 
-### Advantages of using GitHub Pages (for me):
+### Advantages of using GitHub Pages:
 - Using GitHub, local repos, etc. which I need more experience using.
 - Simple content management with a simple collection of "post" files and assets like images.
 - Easy editing of posts using Markdown files. These can be previewed in the web based editor on GitHub.
 - It's free for personal use.
 
-Thanks to Jorge Sanz for his helpful example pages:\
+Thanks to Jorge Sanz for his helpful example pages:  
 &nbsp;&nbsp;&nbsp;&nbsp;<https://github.com/jsanz/gh-pages-minima-starter>
 
 ### Set up a GitHub account and create a repo to hold the blog.
@@ -59,21 +59,24 @@ I'm using the GitHub Actions presently.
 ### Check your deployed site at \<user>.github.io
 
 ### Install Ruby and Jekyll to preview pages locally
-- Initial instructions are at the github pages site:\
+- Initial instructions are at the github pages site:  
   <https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll>
-- Further instructions for Ubuntu:\
+- Further instructions for Ubuntu:  
 `sudo apt-get install ruby-dev ruby-bundler`
-- Run bundle install once in the local repo.  Then start a local server with:\
+- Run bundle install once in the local repo.  Then start a local server with:  
 `bundle exec jekyll serve --baseurl=""`
 
 ### Other modifications and options
 - Created a Personal Access Token (PAT) to allow git pushes from a local repo.
-- Note: Checkouts are done using the PAT in the URL. See:\
+- Note: Checkouts are done using the PAT in the URL. See:  
   <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>
 - Added and modified the Gemfile to use ubuntu-22.04 specifically, after build errors.
 - Using the jekyll/minima remote theme instead of the GitHub built-in older version.
-- Use ghostwriter to edit and preview Markdown locally even before a jekyll build. (Includes spell checking!) Available here:\
+- Add the `jekyll-seo-tag` plugin to add SEO metadata to the generated html pages.
+- Use ghostwriter to edit and preview Markdown locally even before a jekyll build. (Includes spell checking!) Available here:  
   <https://ghostwriter.kde.org/>
 
 ### Additional References
-Markdown: <https://www.markdownguide.org/cheat-sheet/>
+Markdown
+- <https://www.markdownguide.org/cheat-sheet/>
+- <https://www.markdownguide.org/basic-syntax>
