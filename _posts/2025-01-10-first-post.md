@@ -45,6 +45,7 @@ I'm using the GitHub Actions presently.
 - Update _config.yml for the theme, header and footer fields.
   - This blog uses the jekyll/minima repo, rather than the built in version in GitHub:
     `remote_theme: jekyll/minima`
+  - Read through the jekyll/minima/_config.yaml file for additional options.
 
 ### Add a first post
 - Create post files under _posts, e.g. _posts/\<date\>-\<short-description\>.md
