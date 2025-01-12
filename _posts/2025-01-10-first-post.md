@@ -12,8 +12,8 @@ This blog uses GitHub Pages and a Jekyll theme.  I've outlined what I've done to
 - Easy editing of posts using Markdown files. These can be previewed in the web based editor on GitHub.
 - It's free for personal use.
 
-Thanks to Jorge Sanz for his helpful example pages:
-- <https://github.com/jsanz/gh-pages-minima-starter>
+Thanks to Jorge Sanz for his helpful example pages:\
+&nbsp;&nbsp;&nbsp;&nbsp;<https://github.com/jsanz/gh-pages-minima-starter>
 
 ### Set up a GitHub account and create a repo to hold the blog.
 - The repo name should be \<user\>.github.io.
