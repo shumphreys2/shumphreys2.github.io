@@ -12,5 +12,5 @@ A set of custom shapes I've developed is maintained in a public repo:
 
 Here's an example schematic:  
 <img src="https://shumphreys2.github.io/assets/opamp_buffer_notitle.png" alt="example schematic 1" width="540"/>  
-![MD_test5]({{ base_url }}/assets/opamp_buffer_notitle.png)  
+![MD_test5]({{ base_url }}/assets/opamp_buffer_notitle.png){width=540}  
 
