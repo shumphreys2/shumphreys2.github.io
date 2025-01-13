@@ -11,10 +11,6 @@ A set of custom shapes I've developed is maintained in a public repo:
 <https://github.com/shumphreys2/SRH_circuit_shapes>
 
 Here's an example schematic:  
-<img src="/shumphreys2.github.io/assets/opamp_buffer_notitle.png" alt="example schematic 1" width="540"/>  
-<img src="../assets/opamp_buffer_notitle.png" alt="example schematic 2" width="540"/>  
-![MD_test1](/shumphreys2.github.io/docs/assets/images/opamp_buffer_notitle.png)  
-![MD_test2](docs/assets/images/opamp_buffer_notitle.png)  
-![MD_test3](/shumphreys2.github.io/assets/opamp_buffer_notitle.png)    
-![MD_test4]({{ site.base_url }}/assets/opamp_buffer_notitle.png)  
+<img src="https://shumphreys2.github.io/assets/opamp_buffer_notitle.png" alt="example schematic 1" width="540"/>  
 ![MD_test5]({{ base_url }}/assets/opamp_buffer_notitle.png)  
+
