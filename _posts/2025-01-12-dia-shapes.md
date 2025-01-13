@@ -1,5 +1,5 @@
 ---
-title: "Dia shapes for circuit design"
+title: "Dia shapes for circuit diagrams"
 date: 2025-01-12
 layout: post
 ---
