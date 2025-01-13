@@ -11,4 +11,5 @@ A set of custom shapes I've developed is maintained in a public repo:
 <https://github.com/shumphreys2/SRH_circuit_shapes>
 
 Here's an example schematic:  
-<img src="../assets/opamp_buffer_notitle.png" alt="example schematic" width="540"/>
+<img src="shumphreys2.github.io/assets/images/opamp_buffer_notitle.png" alt="example schematic" width="540"/>
+![MD_test](/shumphreys2.github.io/assets/images/opamp_buffer_notitle.png)
