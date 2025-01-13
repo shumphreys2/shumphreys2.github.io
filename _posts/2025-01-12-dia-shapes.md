@@ -11,6 +11,7 @@ A set of custom shapes I've developed is maintained in a public repo:
 <https://github.com/shumphreys2/SRH_circuit_shapes>
 
 Here's an example schematic:  
-<img src="https://shumphreys2.github.io/assets/opamp_buffer_notitle.png" alt="example schematic 1" width="540"/>  
-![MD_test5]({{ base_url }}/assets/opamp_buffer_notitle.png){: width="540"}  
-
+<!-- Prefer Markdown syntax for portability with base_url. Width attribute is Jekyll specific. -->
+![example schematic]({{ base_url }}/assets/opamp_buffer_notitle.png){: width="540"}  
+<!-- The HTML syntax works for preview in the editor. -->
+<!-- <img src="https://shumphreys2.github.io/assets/opamp_buffer_notitle.png" alt="example schematic 1" width="540"/>  -->
