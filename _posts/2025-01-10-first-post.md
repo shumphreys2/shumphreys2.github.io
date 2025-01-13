@@ -73,6 +73,11 @@ I'm using the GitHub Actions presently.
 - Added and modified the Gemfile to use ubuntu-22.04 specifically, after build errors.
 - Using the jekyll/minima remote theme instead of the GitHub built-in older version.
 - Add the `jekyll-seo-tag` plugin to add SEO metadata to the generated html pages.
+- Add the excerpt-seperator to limit the text shown in the home page post list.
+  - Add `excerpt_separator: <!--more-->` to the post's preamble, and place the `<!--more-->` comment just after the desired excerpt.
+  - See: <https://jekyllrb.com/docs/posts/> and <https://jekyllrb.com/docs/variables/>
+- Create an assets folder to hold images.  Markdown syntax for including the image:  
+  `![example schematic]({{ base_url }}/assets/opamp_buffer_notitle.png){: width="540"}`  
 - Use ghostwriter to edit and preview Markdown locally even before a jekyll build. (Includes spell checking!) Available here:  
   <https://ghostwriter.kde.org/>
 
@@ -80,3 +85,6 @@ I'm using the GitHub Actions presently.
 Markdown
 - <https://www.markdownguide.org/cheat-sheet/>
 - <https://www.markdownguide.org/basic-syntax>
+
+Jekyll  
+- <https://jekyllrb.com/docs/>
