@@ -1,5 +1,5 @@
 ---
-title: "First Post"
+title: "First Post: setting up GitHub pages and a Jekyll theme"
 date: 2025-01-10
 layout: post
 ---
