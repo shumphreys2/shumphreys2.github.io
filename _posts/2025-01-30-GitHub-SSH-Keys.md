@@ -2,9 +2,12 @@
 title: "GitHub and SSH Keys"
 date: 2025-01-30
 layout: post
+excerpt_separator: <!--more-->
 ---
+GitHub provides mutliple methods for remote access, including HTTPS with a personal access token (PAT) or SSH.  Initially I used a PAT in the URL, but for now I prefer using SSH keys, which requires stricter file permissions on the client machine.
+<!--more--> 
 
-GitHub provides mutliple methods for remote access, including HTTPS with a personal access token (PAT) or SSH.  Initially I used a PAT in the URL.  In the example just below, the PAT is the portion "ghp_...".
+In the example just below, the PAT is the portion "ghp_...".
 ```
 $ cat ~/local_git/shumphreys2.github.io/.git/config 
 ...
@@ -48,7 +51,7 @@ $ ssh -T git@github.com
 Enter passphrase for key '/home/shumphreys/.ssh/id_ed25519_shumphreys_github': 
 Hi shumphreys2! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-
+Note there are other considerations where HTTPS may be preferable, and there are additional PAT/credential storage mechanisms beyond the .git/config file. See the HappyWithR blog linked below for examples.
 ## References
 [GitHub SSH instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)  
 [Using the SSH config file, at Linuxize.com](https://linuxize.com/post/using-the-ssh-config-file/)  
