@@ -50,6 +50,7 @@ I'm using the GitHub Actions presently.
 ### Add a first post
 - Create post files under _posts, e.g. _posts/\<date\>-\<short-description\>.md
 - The date format is yyyy-mm-dd.  Example, _posts/2025-01-10-first-post.md.
+- Note that the file name must use dashes, not underscores.
 
 ### Build and debug
 - The build actions are set up to be triggered automatically on file updates or checkins.
