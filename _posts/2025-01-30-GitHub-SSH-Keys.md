@@ -63,7 +63,10 @@ The following steps work:
 2. Add a new SSH key in GitHub under the user Settings, SSH and GPG Keys area.
     1. Only copy the first two fields, and *not* the comment field., e.g.
        ```ssh-ed25519 <key text>```
-3. Test access with: ```ssh -T git@github.com```  
+3. As on Linux, remove all other permissions from the key files except for the user.
+    1. On Windows this must be done through the File Properties, Security and Advanced dialogs.  
+    2. See [SuperUser: windows-ssh-permissions-for-private-key-are-too-open](https://superuser.com/questions/1296024/windows-ssh-permissions-for-private-key-are-too-open)
+5. Test access with: ```ssh -T git@github.com```  
     1. Additional options for debug: -v, -vvv, or to check the key itself: -i &lt;key file&gt;.
 
 Git operations are performed through the git-bash tool, which also provides the git-gui.
