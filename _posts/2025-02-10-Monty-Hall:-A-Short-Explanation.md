@@ -13,11 +13,12 @@ First, a brief explanation of the rules and the question.
 3. Then Monty opens one of the doors the contestant did not choose, revealing a goat or very low value prize. Important: He never reveals the prize at this point.
 4. Monty then tries to persuade the contestant to change their mind, offering cash in some case.
 
-The question is:  
-&nbsp;&nbsp;&nbsp;&nbsp;*Should the contestant stay with their choice, or switch their choice to the other closed door?*
+The question:  
+&nbsp;&nbsp;&nbsp;&nbsp;*Should you, as the contestant, stay with your choice, or switch your choice to the other closed door?*
 
 The simple explanation:  
-&nbsp;&nbsp;&nbsp;&nbsp;**Two thirds of the time: (You choose one wrong door and the host shows you the other wrong door).**
+&nbsp;&nbsp;&nbsp;&nbsp;**Two thirds of the time:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(You choose one wrong door and the host shows you the other wrong door).**
 
 It really is that simple. Two thirds of the time: you chose one of the wrong doors, the host shows you the other wrong door, and you should switch.  I add the parentheses here to emphasize that the two clauses in parentheses happen together. 
 
